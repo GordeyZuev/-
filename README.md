@@ -23,11 +23,10 @@
 3. После проверок Программа выводит и Английское и Русское слово. Готово
 
 Вот [Ссылка](https://github.com/GordeyZuev/Computer-Linguistics/blob/main/Словарь_2.py) на программу
+
 Спасибо за внимание!
 
-
-
 > Я Во [Вконтакте](https://vk.com/gordey.zuev)
-> 
-> Продолжение текста выделенного блока
-> Завершение текста
+>
+> [Ссылка](https://github.com/GordeyZuev/Computer-Linguistics/blob/main/Словарь_2.py) на программу
+
