@@ -34,6 +34,6 @@
 
 
 Тут Альпаки: 
-![alpaka]
+![alt text][alpaka]
 
 [alpaka]: C:\Users\ГОРДЕЙ\Desktop\кр инфа\Альпака.jpg
