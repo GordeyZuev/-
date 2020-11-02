@@ -1,0 +1,11 @@
+Коды Эмодзи
+https://www.webfx.com/tools/emoji-cheat-sheet/
+
+Большая Шпаргалка
+http://webdesign.ru.net/article/pravila-oformleniya-fayla-readmemd-na-github.html
+
+Вторая Шпаргалка
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Третья Шпаргалка
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
