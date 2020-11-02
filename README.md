@@ -36,4 +36,4 @@
 Тут Альпаки: 
 ![alt text][alpaka]
 
-[alpaka](C:\Users\ГОРДЕЙ\Desktop\кр инфа\Альпака.jpg)
+[alpaka](https://github.com/GordeyZuev/Computer-Linguistics/blob/main/Альпака.jpg)
