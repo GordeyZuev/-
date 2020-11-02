@@ -32,8 +32,9 @@
 >
 > [Ссылка](https://github.com/GordeyZuev/Computer-Linguistics/blob/main/Словарь_2.py) на программу
 
-
 Тут Альпаки: 
-![alt text][logo]
 
-[logo]: Альпака.jpg "Logo Title Text 2"
+
+![alt text][alpaka]
+
+[alpaka]: Альпака.jpg 
