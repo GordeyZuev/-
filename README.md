@@ -34,6 +34,6 @@
 
 
 Тут Альпаки: 
-![alt text][alpaka]
+![alt text][logo]
 
-[alpaka](https://github.com/GordeyZuev/Computer-Linguistics/blob/main/Альпака.jpg)
+[logo]: Альпака.jpg "Logo Title Text 2"
