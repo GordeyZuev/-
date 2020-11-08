@@ -31,7 +31,7 @@
 >
 > [Ссылка](https://github.com/GordeyZuev/Computer-Linguistics/blob/main/Словарь_2.py) на программу
 
-Тут Альпаки :camel: : 
+Ниже Альпаки :camel: : 
 
 ![alt text][alpaka]
 
