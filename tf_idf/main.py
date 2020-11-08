@@ -38,7 +38,7 @@ def compute_tfidf(corpus):
 text1 = ['my','name','is','Gordey', 'an', 'i', 'am', 'sixteen', 'years', 'old', 'and', 'i', 'enjoy', 'eating', 'pizza']
 text2 = ['me','and','my','brother', 'play', 'football', 'every', 'weer', 'and', 'we', 'do', 'it', 'very', 'well']
 
-
 corpus = [text1, text2]
+
 
 print (compute_tfidf(corpus))
