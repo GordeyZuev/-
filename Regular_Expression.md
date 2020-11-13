@@ -1,5 +1,5 @@
 К(и|ье|е)р.*?рд?(а|е|у|ом)?
 
-![alt text][alpaka]
+![alt text][photo]
 
-[alpaka]: 2.jpg
+[photo]: 2.jpg
