@@ -34,6 +34,7 @@ with open('text_for_test.txt', 'r', encoding='utf-8' ) as f:
     for word in wrds.split():
         list.append (wrds)
 
+
 print(" ") #пустое место чтобы красиво было :)
 tf_wrd = input("Введите слово, чтобы посчитать его частотность.")  
      
