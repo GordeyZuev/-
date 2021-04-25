@@ -1,4 +1,8 @@
-#Task A
+# Компьютерная Лингвистика
+# Гордей Зуев
+# Контрольная Работа за Второе полугодие
+
+# Задание A !!!
 
 dict = {}
 with open('text_for_test.txt', encoding='utf8') as f:
@@ -14,11 +18,10 @@ print("Среднее количество слов в предложении: "
 n = [(value, key) for key, value in dict.items()]
 print ("В предложении ", max(n)[1], " больше всего односимвольных слов: ", max(n)[0], end =' ', sep =' ') 
 
-#Task B
+# Задание B !!!
 
 import collections
 
-#Это нам нужно для tf
 def compute_tf(text):
     tf_text = collections.Counter(text)
     for i in tf_text:
@@ -31,10 +34,11 @@ with open('text_for_test.txt', 'r', encoding='utf-8' ) as f:
     for word in wrds.split():
         list.append (wrds)
 
-print("Второе задание: ", end=  "  ")   
-tfwrd = input("Введите слово, частотность которого вы хотите посчитать ")  
+print(" ") #пустое место чтобы красиво было :)
+tf_wrd = input("Введите слово, чтобы посчитать его частотность.")  
      
 a = compute_tf(list)
-print("Частотность вашего слова равна ", a[tfwrd])
+print("Частотность слова: ", a[tf_wrd])
 
-#Коне ц
+
+#Коне ц...
