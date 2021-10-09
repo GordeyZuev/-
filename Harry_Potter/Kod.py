@@ -1,6 +1,6 @@
 import re
 
-ans = int(input('Введите номер произведения: '))
+ans = int(input('Введите номер произведения: '))                    # Выбор Текста (Части)
 if ans == 1:
     file = open('Garri_Potter_I_Dary_Smerti.txt','r')
 if ans == 2:
@@ -18,7 +18,7 @@ if ans == 7:
     
 f2 = file.read()                                                    # Открытие и Чтение Файла
 
-f2 = (f2.translate({ord(i): None for i in ','}))                    #Убираем все лишние символы
+f2 = (f2.translate({ord(i): None for i in ','}))                    # Убираем все лишние символы
 f2 = (f2.translate({ord(i): None for i in '.'}))
 f2 = (f2.translate({ord(i): None for i in '-'}))
 f2 = (f2.translate({ord(i): None for i in '«'}))
@@ -30,7 +30,7 @@ f2 = (f2.translate({ord(i): None for i in ':'}))
 f2 = (f2.translate({ord(i): None for i in ')'}))
 f2 = (f2.translate({ord(i): None for i in '('}))
 
-text = f2.split()                                                   #Превращаем Текст В Массив
+text = f2.split()                                                   # Превращаем Текст В Массив
 
 
 
@@ -55,12 +55,12 @@ print('Количество форм Имени Хагрид (Огрид):', (nu
 
 print('')
 
-name_forms_list = (list(set(name_forms)))                                       #Массив с неповторяющимися Формами имени
+name_forms_list = (list(set(name_forms)))                                       # Массив с неповторяющимися Формами имени
 name_forms_list.sort()
 
 
 
-for i in range (len(name_forms)):                                               #Делаем все ячейки массива без заглавных букв
+for i in range (len(name_forms)):                                               # Делаем все ячейки массива без заглавных букв
     name_forms[i] = name_forms[i].lower()
 
 for i in range (len(name_forms_list)):
@@ -68,11 +68,11 @@ for i in range (len(name_forms_list)):
 
 print('Формы Имен и их количество: ')
 
-for i in range (len(name_forms_list)):                                          #Цикл, выводящий форму имени и количество этих форм
+for i in range (len(name_forms_list)):                                          # Цикл, выводящий форму имени и количество этих форм
     print(name_forms_list[i])
     n = 0
     for k in range (len(name_forms)):
         if name_forms[k] == name_forms_list[i]:
             n = n + 1
-    print(n)
+    print(n)                                                                    # Вывод числа
     print(' ')
