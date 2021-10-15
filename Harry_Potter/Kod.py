@@ -1,12 +1,12 @@
 import re
 
-k1 = open('Garri-Potter-I-Prints-Polukrovka.txt','r')               #(1) (на три гермионы показывает больше...)
-k2 = open('Garri_Potter_I_Dary_Smerti.txt','r')                     #(1) (на одну гермиону показывает больше...)
-k3 = open('Garri_Potter_I_Kubok_Ognya.txt','r')                     #(1)
-k4 = open('Garri_Potter_I_Orden_Fenixa.txt','r')                    #(1)
-k5 = open('Garri_Potter_I_Taynaya_Komnata.txt','r')                 #(1)
-k6 = open('Garri_Potter_I_Uznik_Azkabana.txt','r')                  #(1)
-k7 = open('Garri_Potter_I_Filosofsky_Kamen.txt','r')                #(1)
+k1 = open('Garri-Potter-I-Prints-Polukrovka.txt','r')           #(1) (на три гермионы показывает больше...)
+k2 = open('Garri_Potter_I_Dary_Smerti.txt','r')                 #(1) (на одну гермиону показывает больше...)
+k3 = open('Garri_Potter_I_Kubok_Ognya.txt','r')                 #(1)
+k4 = open('Garri_Potter_I_Orden_Fenixa.txt','r')                #(1)
+k5 = open('Garri_Potter_I_Taynaya_Komnata.txt','r')             #(1)
+k6 = open('Garri_Potter_I_Uznik_Azkabana.txt','r')              #(1)
+k7 = open('Garri_Potter_I_Filosofsky_Kamen.txt','r')            #(1)
 
 ans = -1
 pas = int(input('Выберете вариант отобржения: '))
@@ -59,11 +59,12 @@ while ans != 0:
 
         num_hagr = (len(re.findall(r'[а-я]{1,2}грид[а-я]{0,6}', f2)))                       # Формы Имени Хагрид (Огрид)
 
-        num_damb = (len(re.findall(r'д[а-я]мбл[а-я]{0,1}дор[а-я]{0,6}', f2)))                # Формы Имени Дамблдор (Думбльдор)
-    
+        num_damb = (len(re.findall(r'д[а-я]мбл[а-я]{0,1}дор[а-я]{0,6}', f2)))               # Формы Имени Дамблдор (Думбльдор)
     
         print('')
-        print('Книга',(ans), 'Количество форм Имен: ')
+        print('')
+        print('Книга ',(ans), '; Количество форм Имен: ', sep='')
+        print('')
 
         print('Форм имени Гермиона: ', (num_germ))
 
@@ -79,6 +80,7 @@ while ans != 0:
 
         if pas == 1:
             print('Формы Имен и их количество: ')
+            print('')
             for i in range (len(name_forms_list)):                      # Цикл, выводящий форму имени и количество этих форм
                 print(name_forms_list[i])
                 n = 0
