@@ -11,7 +11,7 @@ k6 = open('Garri_Potter_I_Uznik_Azkabana.txt','r')              #(1)
 k7 = open('Garri_Potter_I_Filosofsky_Kamen.txt','r')            #(1)
 
 ans = -1
-pas = int(input('Выберете вариант отобржения: '))
+pas = int(input('Выберете вариант отображения: '))
 
 
 while ans != 0:
